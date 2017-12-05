@@ -1,0 +1,15 @@
+{
+    "employees": [{
+        "Id": 1,
+        "name": "Ankur",
+        "email": "xyz@gmail.com",
+        "country": "India"
+
+    }, {
+        "Id": 2,
+        "name": "Adi",
+        "email": "xyd@gmail.com",
+        "country": "uganda"
+    }]
+
+}

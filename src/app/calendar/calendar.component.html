@@ -1,0 +1,14 @@
+<form (ngSubmit)="getDate($event)" #employeeForm="ngForm">
+    <div class="test">
+        <h3>Choose your start Date:</h3>
+
+        <input class="date-picker" name="start" type="date">
+        <!-- <input class="date-picker" type="date" [ngModel]="dt" (ngModelChange)="getStartDate($event)"> -->
+    </div>
+    <div class="test1">
+        <h3>Choose your end Date:</h3>
+        <input class="date-picker" name="end" type="date">
+    </div>
+    <input type="submit" class="sub" value="GO">
+</form>
+<app-table [data]="objetsData"> </app-table>

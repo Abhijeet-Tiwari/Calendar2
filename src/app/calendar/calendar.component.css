@@ -1,0 +1,52 @@
+h3 {
+    color: navy;
+    margin-left: 20px;
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+}
+
+.test,
+.test1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#date-picker {
+    height: 20px;
+}
+
+.sub {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.container {
+    color: rgb(28, 28, 141);
+    margin-left: 40px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td,
+thead {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
